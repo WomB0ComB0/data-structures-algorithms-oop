@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyx?$'
+
+[tool.mypy]
+python_version = "3.7"
+warn_return_any = true
+warn_unused_configs = true

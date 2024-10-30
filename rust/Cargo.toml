@@ -1,0 +1,15 @@
+[package]
+name = "dsa"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+itertools = "0.13.0"
+num = "0.4"
+rand = "0.8"
+
+[dev-dependencies]
+criterion = "0.5.1"
